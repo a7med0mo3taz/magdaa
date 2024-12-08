@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import  "./Brands.css"
 import axios from 'axios'
-import "./Brands.css"
+// import "./Brands.css"
 import Loading from '../Loading/Loading'
 import { data, Link } from 'react-router-dom'
 export default function Brands() {

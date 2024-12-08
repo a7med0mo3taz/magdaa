@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Carousel.css"
-import audioDevice from "../../../assets/audio-devies.jpg"
+import   "./Carousel.css"
+import audioDevice from "../../assets/audio-devies.jpg"
 
-import bags from "../../../assets/download.jpg"
+import bags from "../../assets/download.jpg"
 import Slider from 'react-slick'
 
 export default function Carousel() {

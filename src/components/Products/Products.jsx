@@ -13,6 +13,7 @@ import ktakito6 from '../../assets/dark.jpg';
 import { CartContext } from '../../context/cartContext/CartContext';
 import Loading from '../Loading/Loading';
 
+
 const Products = () => {
     const [products, setProducts] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
@@ -154,6 +155,7 @@ const Products = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
             />
+          
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {renderProducts()}

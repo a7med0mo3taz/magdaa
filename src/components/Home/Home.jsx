@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
-import Carousel from './Carousel/Carousel'
-import CategoriesCarousel from './CategoriesCarousel/CategoriesCarousel'
+import  "./Home.css"
+import Carousel from '../Carousel/Carousel'
+import CategoriesCarousel from '../CategoriesCarousel/CategoriesCarousel'
 import Products from '../Products/Products'
 import { CartProvider } from '../../context/cartContext/CartContext';
 

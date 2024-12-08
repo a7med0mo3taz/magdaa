@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./TemplateName.module.css"
+import  "./TemplateName.css"
 export default function TemplateName() {
     return (
         <div>
