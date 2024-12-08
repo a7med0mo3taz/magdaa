@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import style from "./Login.module.css"
+
 export default function Login() {
     const usePageTitle = (title) => {
         useEffect(() => {
